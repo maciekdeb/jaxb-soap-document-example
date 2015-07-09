@@ -1,0 +1,19 @@
+<!--<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">-->
+    <!--<SOAP-ENV:Header/>-->
+    <!--<SOAP-ENV:Body>-->
+        <!--<customer id="0">-->
+            <!--<age>24</age>-->
+            <!--<firstName>maciej</firstName>-->
+        <!--</customer>-->
+    <!--</SOAP-ENV:Body>-->
+<!--</SOAP-ENV:Envelope>-->
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Header/>
+<soap:Body>
+    <customer id="0">
+        <age>24</age>
+        <firstName>maciej</firstName>
+    </customer>
+</soap:Body>
+</soap:Envelope>
